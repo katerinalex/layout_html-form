@@ -15,6 +15,7 @@
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" metod="post">
       <fieldset class="fieldset">
         <legend>Personal information</legend>
+
         <div class="form-field">
           <label for="surname">Surname: </label>
           <input
@@ -25,6 +26,7 @@
             autocomplete="off"
           >
         </div>
+
         <div class="form-field">
           <label for="name">Name:</label>
           <input
@@ -35,6 +37,7 @@
             autocomplete="off"
           >
         </div>
+
         <div class="form-field">
           <label for="age">How old are You?</label>
           <input
@@ -46,6 +49,7 @@
             value="12"
           >
         </div>
+
         <div class="form-field">
           <label for="date">Full date of birth:</label>
           <input
@@ -54,6 +58,7 @@
             id="date"
           >
         </div>
+
         <div class="form-fieldLast">
           <label for="agreement">I accept the term of the agreement</label>
           <input
@@ -64,8 +69,10 @@
           >
         </div>
       </fieldset>
+
       <fieldset class="fieldset">
         <legend>Registration</legend>
+
         <div class="form-field">
           <label for="email">E-mail:</label>
           <input
@@ -76,6 +83,7 @@
             required
           >
         </div>
+
         <div class="form-fieldLast">
           <label for="password">Password:</label>
           <input
@@ -88,8 +96,10 @@
           >
         </div>
       </fieldset>
+
       <fieldset class="fieldset">
         <legend>An interesting fact about you!</legend>
+
         <div class="form-field">
           Do you love cats?
 
@@ -99,6 +109,7 @@
             name="cats"
             id="catsy"
           >
+
           <label for="catsy">Yes</label>
 
           <input
@@ -106,19 +117,23 @@
           name="cats"
           id="catsn"
           >
+
           <label for="catsn">No</label>
 
         </div>
         <div class="form-field">
           <label for="color">What is your favorite color?</label>
+
           <input
             type="color"
             name="color"
             id="color"
           >
         </div>
+
         <div class="form-field">
           <label for="datatime">What time do you go to bed?</label>
+
           <input
             type="time"
             name="datatime"
@@ -126,21 +141,27 @@
             step="1"
           >
         </div>
+
         <div class="form-field">
           <label for="brand">What are your favourite brand of cars?</label>
+
           <select
             name="brand"
             id="brand"
             multiple
           >
             <option value="BMV">BMV</option>
+
             <option value="Audi">Audi</option>
+
             <option value="Lada">Lada</option>
+
             <option value=" "> </option>
           </select>
         </div>
         <div class="form-fieldLast">
           <label for="rate">How do you rate our work?</label>
+
           <input
             type="range"
             name="rate"
@@ -154,8 +175,10 @@
       </fieldset>
       <fieldset class="fieldsetLast">
         <legend>Additional info:</legend>
+
         <div class="form-field">
           <label for="comments">Comments:</label>
+
           <textarea
             name="comments"
             id="comments"
@@ -167,17 +190,20 @@
         </div>
         <div class="form-fieldLast">
           <label for="recommend">Would you recommend us?</label>
+
           <select
             name="recommend"
             id="recommend"
           >
             <option value="Yes" selected>Yes</option>
+
             <option value="No">No &#128557</option>
           </select>
         </div>
       </fieldset>
       <button type="submit">Submit</button>
     </form>
+
     <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>
